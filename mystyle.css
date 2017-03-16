@@ -1,0 +1,15 @@
+#menu {
+	background-color: lightblue;
+	float: left;
+	width: 150px;
+}
+
+
+#menu ul {
+	list-style: none;
+}
+
+#content{
+	margin-left: 160px;
+}
+

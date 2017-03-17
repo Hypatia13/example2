@@ -1,6 +1,6 @@
 <?php include "menu.php"; ?>
 <h2>Add Customers</h2>
-<form action="addCustomers.php" method="post">
+<form action="customers.php" method="post">
 	<label for="fn">Firstname</label><br>
 		<input type="text" name="fn" id="fn" required=""><br>
 
@@ -14,21 +14,5 @@
 
 </form>
 
-<?php 
-	include "connect.php";
-
-	$btn=$_POST['btnAdd'];
-	if (isset($btn)) {
-		$add = $db -> prepare("INSERT INTO customers (firstname, lastname, streetaddress) VALUES (:fn, :ln, :ad)");
-		$add -> bindParam(':fn', ':fn');
-		$add -> bindParam(':ln', ':ln');
-		$add -> bindParam(':ad', ':ad');
-		$fn=$_POST['fn'];
-		$ln=$_POST['ln'];
-		$ad=$_POST['ad'];
-		$add -> execute();
-    	
-	}
- ?>
 
 <?php include "footer.php"; ?>

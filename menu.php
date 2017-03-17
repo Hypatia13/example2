@@ -15,6 +15,9 @@
 		<li><a href="forms.php">Forms</a></li>
 		<li><a href="user.php">Login page</a></li>
 		<li><a href="logout.php">LogOut</a></li>
+		<li><a href="sql.php">SQL Code</a></li>
+		<li><a href="customers.php">Customers</a></li>
+		<li><a href="addCustomers.php">Add Customers</a></li>
 		
 	</ul>
 </div>

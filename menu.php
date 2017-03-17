@@ -13,6 +13,8 @@
 		<li><a href="index.php">MainPage</a></li>
 		<li><a href="login.php">Login</a></li>
 		<li><a href="forms.php">Forms</a></li>
+		<li><a href="user.php">Login page</a></li>
+		<li><a href="logout.php">LogOut</a></li>
 		
 	</ul>
 </div>

@@ -19,6 +19,19 @@
 
 		INSERT INTO customers (firstname, lastname) VALUES ('Ann', 'Smith');
 		INSERT INTO customers (firstname, lastname) VALUES ('Bob', 'Smith');
+
+
+		CREATE TABLE cats (
+		id_cats SMALLINT PRIMARY KEY auto_increment,
+		name VARCHAR(30),
+		color VARCHAR (20),
+		id_customers SMALLINT,
+		FOREIGN KEY (id_customers) REFERENCES customers(id_customers) ON DELETE RESTRICT ON UPDATE CASCADE) Engine=InnoDB;
+
+		INSERT INTO cats (name, color, id_customers) VALUES ('Garfield', 'orange', 1);
+		INSERT INTO cats (name, color, id_customers) VALUES ('HelloKitty', 'pink', 2);
+		
+
 </pre>
 
 <?php include "footer.php"; ?>

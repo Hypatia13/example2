@@ -16,10 +16,10 @@
     	
     	}
 
-    	if (isset($_POST['btnDelete'])) {
-    		$deleteSQL="DELETE FROM customers WHERE id_customers=".$_POST['id'];
-    		$db->query($deleteSQL);
-    	}
+    	if (isset($_POST['btnDelete'])){
+  			$deleteSQL="DELETE FROM customers WHERE id_customers=".$_POST['id'];
+  			$db->query($deleteSQL);
+}
  ?>
 
 <?php include "menu.php"; ?>

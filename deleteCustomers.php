@@ -25,7 +25,9 @@
 		<input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
 		<br>
 		<label>Do you really want to delete this customer?</label>
+
 		<input type="submit" name="btnDelete" value="Delete">
+		
 		<a href="customers.php"><button>Cancel</button></a>
 
 </form>

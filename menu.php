@@ -5,6 +5,7 @@
 	<title>PHP example2</title>
 
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script type="text/javascript" src="myFunctions.js"></script>
 </head>
 <body>
 
